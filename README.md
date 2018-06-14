@@ -16,6 +16,8 @@ log      Internal Link using Anchor Elements
 
 Jun 14, 2018 8:15am - 9am 
 Day 2: Learn more about attributes 
-log:       Created a second page with the back to home button 
+log: Created a second page with the back to home button
+Inserted an audio file of my favorite song, Breezeblocks
+
   
         
