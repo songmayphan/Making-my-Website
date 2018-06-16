@@ -19,5 +19,13 @@ Day 2: Learn more about attributes
 log: Created a second page with the back to home button
 Inserted an audio file of my favorite song, Breezeblocks
 
-  
+Jun 15, 2018 8pm-9pm
+Day 3: Insert video, pictures 
+log: Insert a picture of a cat in website
+
+Jun 16, 2018 10am -11am 
+Day 4: Comments, sections elements, and forms 
+Log : Created a form for my audience to send feedback or contact
+     : Allow visitors to leave there information for me to contact them again
+ 
         
