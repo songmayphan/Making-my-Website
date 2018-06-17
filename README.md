@@ -4,7 +4,7 @@ A display of my self-learning process of HTML and CSS in order to make my own we
 This website is also the project of my #100DaysofCode journey! I will be logging in everything I learnt from day 0 to day 100. My goal is to code and learn everyday for at least an hour. The progress of my website will be the proof of my commitment to the challenge. 
 
 
-<--- BEGIN #100DAYSOFCODE </---- 
+<!-- BEGIN #100DAYSOFCODE -->
 
 Jun 12, 2018 8pm - 10 pm 
 Day 0: Signed up for Udemy Web Design course
