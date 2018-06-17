@@ -27,5 +27,12 @@ Jun 16, 2018 10am -11am
 Day 4: Comments, sections elements, and forms 
 Log : Created a form for my audience to send feedback or contact
      : Allow visitors to leave there information for me to contact them again
+     
+Jun 17, 2018 9:am-9:45am 
+Day 5: Select, radio, checkbox
+Log: Making a selection for visitors to choose feedback from a a menu
+     Used radio options to ask users what I need to improve for my website
+     
+     
  
         
