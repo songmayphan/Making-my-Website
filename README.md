@@ -30,9 +30,11 @@ Log : Created a form for my audience to send feedback or contact
      
 Jun 17, 2018 9:am-9:45am 
 Day 5: Select, radio, checkbox
-Log: Making a selection for visitors to choose feedback from a a menu
+Log: Making a selection for visitors to choose feedback from a menu
      Used radio options to ask users what I need to improve for my website
      
-     
+Jun 18, 2018 8:45am- 9:30
+Day 6: Introduction to CSS
+Log: modifying colors to headings 
  
         
