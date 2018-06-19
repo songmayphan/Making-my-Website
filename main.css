@@ -1,13 +1,19 @@
 header {
+	font-size: 165%;
+	font-weight: normal;
 	color : purple;
 	text-align :center; 
 	
 }
-ul {
+body {
 	
 	color: pink;
 }
 footer .highlight {
-	
-	background-color: yellow;	
+		color: black;
+		background-color: LightPink;
+		padding: 1px; 
+		border: 3px solid black; 
+		margin: 5px; 
+		width: 100px;
 }
