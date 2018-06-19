@@ -37,4 +37,10 @@ Jun 18, 2018 8:45am- 9:30
 Day 6: Introduction to CSS
 Log: modifying colors to headings 
  
+Jun 19, 2018 3pm - 5pm 
+Day 7: Cascade, Inheritence, and Specificity with box model 
+Log:  update borders, margin and background color to classes
+      learn about pixels and arithmetic to calculate pixels in CSS
+
+
         
