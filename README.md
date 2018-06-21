@@ -44,7 +44,8 @@ Log:  update borders, margin and background color to classes
       
 Jun 20, 2018 5pm- 6pm 
 Day 8: Margin for the paragraphs, aligning for paragraphs. 
-Log:  Modify pixels and margins 
+Log:  Modify pixels and margins
+       Add about.css and modify About page
 
 
         
