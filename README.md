@@ -41,6 +41,10 @@ Jun 19, 2018 3pm - 5pm
 Day 7: Cascade, Inheritence, and Specificity with box model 
 Log:  update borders, margin and background color to classes
       learn about pixels and arithmetic to calculate pixels in CSS
+      
+Jun 20, 2018 5pm- 6pm 
+Day 8: Margin for the paragraphs, aligning for paragraphs. 
+Log:  Modify pixels and margins 
 
 
         
