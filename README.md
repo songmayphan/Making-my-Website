@@ -46,6 +46,10 @@ Jun 20, 2018 5pm- 6pm
 Day 8: Margin for the paragraphs, aligning for paragraphs. 
 Log:  Modify pixels and margins
        Add about.css and modify About page
+       
+Jun 21, 2018 5:30- 6:30pm
+Day 9: Page Layout, make columns and page organization
+Log: Create collumns for about page
 
 
         
