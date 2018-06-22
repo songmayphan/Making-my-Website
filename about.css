@@ -1,10 +1,10 @@
-header ul{ 
+header{ 
 
 	color: green;
 	text-align :left; 
 
 }
-h1{1{ 
+h1{ 
 
 	color: purple;
 	text-align: left;
@@ -13,16 +13,23 @@ h1{1{
 }
 .container {
 	
-	max-width: 500px;
+	max-width: 900px;
 	max-left: auto;
 	max-right :auto;
 	
 }
-footer .highlight {
-		color: black;
-		background-color: LightPink;
-		padding: 1px; 
-		border: 3px solid black; 
-		margin: 5px; 
-		width: 100px;
+body .content-area {
+	
+	border-bottom: 3px solid black; 
+	border-top: 3px solid black; 
 }
+body .main-area {
+	width: 66%;
+	float: left;
+}
+body .sidebar {
+	width: 34%; 
+	float: left;
+	
+}
+ 
