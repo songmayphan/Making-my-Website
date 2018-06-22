@@ -55,6 +55,7 @@ Jun 22, 2018 4:00- 5pm
 Day 10: Continue pay layout. 
 Log:  Add a sidebar for upcoming projects
       Instead of a table, sidebar is now a list of links that direct to projects.
+      Update float for sidebar
       
       
 
