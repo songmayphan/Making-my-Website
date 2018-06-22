@@ -18,18 +18,44 @@ h1{
 	max-right :auto;
 	
 }
-body .content-area {
+.content-area {
 	
 	border-bottom: 3px solid black; 
-	border-top: 3px solid black; 
+	border-top: 2px solid black; 
 }
 body .main-area {
-	width: 66%;
+	width: 70%;
 	float: left;
 }
 body .sidebar {
-	width: 34%; 
-	float: left;
+	width: 30%; 
+	float: right;
 	
 }
+body .tit{
+	color: purple;
+	text-align: left; 
+	
+}
+.fix {
+	
+		clear: both; 
+}
+.group: before,
+.group:after 
+ {
+
+	content: "";
+	display: table;
+	
+}
+ .group:after{
+	clear:both;
+ }
+
+ .group {
+	zoom: 1;
+ }
+ 
+
  
