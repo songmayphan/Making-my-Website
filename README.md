@@ -51,5 +51,12 @@ Jun 21, 2018 5:30- 6:30pm
 Day 9: Page Layout, make columns and page organization
 Log: Create collumns for about page
 
+Jun 22, 2018 4:00- 5pm 
+Day 10: Continue pay layout. 
+Log:  Add a sidebar for upcoming projects
+      Instead of a table, sidebar is now a list of links that direct to projects.
+      
+      
+
 
         
