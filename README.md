@@ -56,6 +56,11 @@ Day 10: Continue pay layout.
 Log:  Add a sidebar for upcoming projects
       Instead of a table, sidebar is now a list of links that direct to projects.
       Update float for sidebar
+Jun 23, 2018 2:26pm- 3:30pm 
+Day 11: Aestetics for website
+Log:  Choose color combination for back ground and columns 
+
+      
       
       
 
