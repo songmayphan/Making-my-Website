@@ -1,6 +1,10 @@
+\
+html {
+	background-color: #B56357;
+}
 header{ 
 
-	color: green;
+	color: #B4DBC0;
 	text-align :left; 
 
 }
@@ -12,28 +16,39 @@ h1{
 
 }
 .container {
-	
-	max-width: 900px;
-	max-left: auto;
-	max-right :auto;
-	
+	background-color: #A7B3A5;
+	padding-right: 40px;
+	padding-left: 40px; 
+	width: 940px;
+	margin-left: auto;
+	margin-right :auto;
+	box-sizing: border-box;
 }
 .content-area {
-	
+	background-color: #A7B3A5;
 	border-bottom: 3px solid black; 
 	border-top: 2px solid black; 
 }
 body .main-area {
-	width: 70%;
+	background-color: #A7B3A5;
+	width: 66%;
 	float: left;
+	padding-right: 40px; 
+	box-sizing: border-box;
+	
 }
 body .sidebar {
-	width: 30%; 
+	background-color: #A7B3A5;
+	width: 34%; 
 	float: left;
 	
 }
+body {
+		font-family: Tahoma, sans-serif; 
+		font-size: 95%; 
+}
 body .tit{
-	color: purple;
+	color: #B4DBC0;
 	text-align: left; 
 	
 }
