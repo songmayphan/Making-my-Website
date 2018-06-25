@@ -60,7 +60,9 @@ Jun 23, 2018 2:26pm- 3:30pm
 Day 11: Aestetics for website
 Log:  Choose color combination for back ground and columns 
 
-      
+Jun 25, 2018 10am-11am 
+Day 12: more color
+Log: design the layout 
       
       
 
