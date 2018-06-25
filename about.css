@@ -1,15 +1,18 @@
-\
+
 html {
 	background-color: #B56357;
 }
 header{ 
-
+	padding-top: 20px; 
+	padding-bottom: 20px; 
 	color: #B4DBC0;
 	text-align :left; 
-
+	font-weight: normal; 
+	
+	
 }
 h1{ 
-
+	margin: 0;
 	color: purple;
 	text-align: left;
 	
@@ -21,7 +24,7 @@ h1{
 	padding-left: 40px; 
 	width: 940px;
 	margin-left: auto;
-	margin-right :auto;
+	margin-right: auto;
 	box-sizing: border-box;
 }
 .content-area {
@@ -41,6 +44,9 @@ body .sidebar {
 	background-color: #A7B3A5;
 	width: 34%; 
 	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box; 
 	
 }
 body {
