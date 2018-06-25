@@ -1,0 +1,32 @@
+html {
+	background-color: #d8a6ed;
+}
+header{ 
+
+	color: green;
+	text-align :left; 
+
+}
+h1{ 
+
+	color: purple;
+	text-align: left;
+	
+
+}
+footer .highlight {
+		color: black;
+		
+		padding: 1px; 
+		
+		margin: 5px; 
+		width: 100px;
+		
+}
+
+footer .highlight{
+	text-align: center; 
+	font-size: 85%; 
+	color: #999;
+}
+	
