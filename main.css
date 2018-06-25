@@ -1,4 +1,6 @@
-
+html {
+	background-color: #d8a6ed;
+}
 
 header {
 	font-size: 165%;
@@ -13,9 +15,22 @@ body {
 }
 footer .highlight {
 		color: black;
-		background-color: LightPink;
+		
 		padding: 1px; 
-		border: 3px solid black; 
+		 
 		margin: 5px; 
 		width: 100px;
+		
+}
+.container {
+	
+	max-width: 940px; 
+	margin-left: auto; 
+	margin-right: auto; 
+		
+}
+footer .highlight{
+	text-align: center; 
+	font-size: 85%; 
+	color: #999;
 }
