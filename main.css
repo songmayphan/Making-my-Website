@@ -1,27 +1,19 @@
 html {
-	background-color: #d8a6ed;
+	background-color: #B56357;
 }
 
 header {
-	font-size: 165%;
+	font-size: 100%;
 	font-weight: normal;
-	color : purple;
-	text-align :center; 
+	color : #B4DBC0;
+	text-align :left; 
 	
 }
 body {
 	
-	color: pink;
+	color: #B4DBC0;
 }
-footer .highlight {
-		color: black;
-		
-		padding: 1px; 
-		 
-		margin: 5px; 
-		width: 100px;
-		
-}
+
 .container {
 	
 	max-width: 940px; 
