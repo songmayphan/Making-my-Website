@@ -64,7 +64,11 @@ Jun 25, 2018 10am-11am
 Day 12: more color
 Log: design the layout 
       
-      
+Jun 26, 2018 5pm-7pm
+Day 13: Final color touch up
+Log: Choose a theme and final touch up on color for navigations
+     Modify padding, box sizing and font family
+     
 
 
         
