@@ -1,11 +1,33 @@
 html {
   background-color: #B56357;
 }
-
+h1 {
+	color: #B4DBC0;
+	
+}
+body {
+		font-family: Tahoma, sans-serif; 
+		font-size: 90%; 
+}	
+header {
+	font-size: 100%;
+	font-weight: normal;
+	color : #B4DBC0;
+	text-align :left; 
+	padding-top: 20px; 
+	
+	
+	
+}
 .container {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #A7B3A5; 
+  padding-left: 40px; 
+  padding-right: 40px;
+  box-sizing: border-box; 
+  
 }
 
 .content-area {
@@ -24,6 +46,8 @@ footer {
 .main-area {
   width: 66%;
   float: left;
+  padding-right: 40px; 
+  box-sizing: border-box; 
 }
 
 .sidebar {
@@ -34,8 +58,64 @@ footer {
   box-sizing: border-box; 
   font-size: 90%;
   
+  
 }
+/*	Site Navigation */
+.site-nav {
+		margin-top: 20px;
+}
+.site-nav ul{ 
+	
+	margin: 0; 
+	padding: 0; 
+}
+.site-nav li {
+	
+	list-style: none; 
+	float: left; 
+	margin-right: 5px; 
+}
+.site-nav a:hover {
+		background-color: #A7B3A5;
+ }
+.site-nav a {
+	text-decoration: none;
+	color: #B4DBC0;
+	padding: 10px 20px; 
+	border: 3px solid #A7B3A5;
+	display: block; 
+	
+}
+ 
+ /* End site nav**/
+ 
+ img {
+	max-width: 100%; 
+	height: auto;
+	
+ }
+ /*Banner Overlay */
+.image-banner {
+	position: relative;
+	z-index: 10;
+	
+}	
+	.banner-description {
+		padding: 10px 20px;
+		position: absolute;
+		bottom: 0;
+		left: 0; 
+		color: #FFF; 
+		background-color: rgba(0,0,0,.4)
 
+	}
+ .image-banner img {
+	display: block;
+ }
+ 
+ 
+ /* end banner*/ 
+ 
 .fix {
   clear: both;
 }
