@@ -1,27 +1,18 @@
 html {
-	background-color: #d8a6ed;
+	background-color: #B56357;
 }
 header{ 
 
-	color: green;
+	color: #B4DBC0;
 	text-align :left; 
 
 }
 h1{ 
 
-	color: purple;
+	color: #A7B3A5;
 	text-align: left;
 	
 
-}
-footer .highlight {
-		color: black;
-		
-		padding: 1px; 
-		
-		margin: 5px; 
-		width: 100px;
-		
 }
 
 footer .highlight{
