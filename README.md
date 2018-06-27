@@ -69,6 +69,10 @@ Day 13: Final color touch up
 Log: Choose a theme and final touch up on color for navigations
      Modify padding, box sizing and font family
      
-
+Jun 27, 2018 8am-9am 
+Day 14:Image description and customize navigations
+Log: Insert img and its description (position absolute and position relative) 
+     Insert hovering effect for navigations 
+     
 
         
