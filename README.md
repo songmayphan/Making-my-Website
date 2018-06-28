@@ -74,5 +74,8 @@ Day 14:Image description and customize navigations
 Log: Insert img and its description (position absolute and position relative) 
      Insert hovering effect for navigations 
      
-
+Jun 28, 2018 3pm- 5pm
+Day 14: CSS Forms 
+Log: Modify contact.css to decorate forms for contacts
+    
         
