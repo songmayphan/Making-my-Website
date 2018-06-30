@@ -1,5 +1,6 @@
 html {
 	background-color: #B56357;
+	line-height: 1.5; 
 }
 /*	Site Navigation */
 .site-nav {
@@ -28,19 +29,25 @@ html {
 		background-color: #A7B3A5;
  }
  /* End site nav**/
+ a {
+	text-decoration: none; 
+ }
 header {
 	font-size: 100%;
 	font-weight: normal;
 	color : #B4DBC0;
 	text-align :left; 
 	padding-top: 20px; 
-	
-	
+	text-shadow: 2px 10px 10px rgba(0, 0, 0, .5);
+	text-transform: uppercase; 
 	
 }
 body {
-	
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 15px; 
 	color: #B4DBC0;
+	font-weight: normal;
+	
 }
 img {
 	max-width: 100%; 
