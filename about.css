@@ -1,5 +1,6 @@
 html {
   background-color: #B56357;
+  line-height: 1.5; 
 }
 h1 {
 	color: #B4DBC0;
@@ -15,10 +16,13 @@ header {
 	color : #B4DBC0;
 	text-align :left; 
 	padding-top: 20px; 
-	
-	
-	
+	text-shadow: 2px 10px 10px rgba(0, 0, 0, .5);
+	text-transform: uppercase; 
+
 }
+a {
+	text-decoration: none; 
+ }
 .container {
   width: 940px;
   margin-left: auto;
@@ -49,6 +53,11 @@ footer {
   padding-right: 40px; 
   box-sizing: border-box; 
 }
+.main-area p {
+	
+		text-indent: 25px;
+				
+}
 
 .sidebar {
   width: 34%;
@@ -57,7 +66,7 @@ footer {
   padding: 20px 40px 20px 40px;
   box-sizing: border-box; 
   font-size: 90%;
-  
+  list-style-position: normal;
   
 }
 /*	Site Navigation */
