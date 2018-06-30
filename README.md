@@ -77,5 +77,12 @@ Log: Insert img and its description (position absolute and position relative)
 Jun 28, 2018 3pm- 5pm
 Day 14: CSS Forms 
 Log: Modify contact.css to decorate forms for contacts
+
+Jun 30, 2018 5pm-7:40pm
+Day 15: CSS fontFamily and fontface
+Log: Set up custom fonts for paragraphs
+     Indentation modifications
+     Add shadow to navigation bar
+     
     
         
