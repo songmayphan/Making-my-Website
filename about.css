@@ -3,7 +3,7 @@ html {
   line-height: 1.5; 
 }
 h1 {
-	color: #B4DBC0;
+	color: #DF744A; ;
 	
 }
 body {
@@ -13,11 +13,13 @@ body {
 header {
 	font-size: 100%;
 	font-weight: normal;
-	color : #B4DBC0;
+	color:  #DF744A;
 	text-align :left; 
 	padding-top: 20px; 
-	text-shadow: 2px 10px 10px rgba(0, 0, 0, .5);
+	text-shadow: 1px 10px 10px rgba(0, 0, 0, .3);
 	text-transform: uppercase; 
+	background-image: url(../images/flower.jpg);
+	background-position: right center; 
 
 }
 a {
@@ -28,8 +30,8 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: #A7B3A5; 
-  padding-left: 40px; 
-  padding-right: 40px;
+  background-image: url(../images/bg.png); 
+  padding-left: 40px;  
   box-sizing: border-box; 
   
 }
@@ -89,10 +91,11 @@ footer {
  }
 .site-nav a {
 	text-decoration: none;
-	color: #B4DBC0;
+	color: #DF744A;
 	padding: 10px 20px; 
 	border: 3px solid #A7B3A5;
 	display: block; 
+	background-color: #FFF;
 	
 }
  
