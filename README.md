@@ -84,5 +84,11 @@ Log: Set up custom fonts for paragraphs
      Indentation modifications
      Add shadow to navigation bar
      
+-- JULY -- 
+Day 16: Inspecting Elements
+Log: Backgroung Image 
+Insert backgroudnd image to header and body 
+
+     
     
         
