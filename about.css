@@ -1,5 +1,6 @@
 html {
-  background-color: #B56357;
+  background-color: #ff9b84;
+  background-image: linear-gradient(to bottom right, #ff9b84,#B56357 );
   line-height: 1.5; 
 }
 h1 {
