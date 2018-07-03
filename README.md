@@ -85,9 +85,17 @@ Log: Set up custom fonts for paragraphs
      Add shadow to navigation bar
      
 -- JULY -- 
+July 2, 2018 5pm- 7pm 
 Day 16: Inspecting Elements
 Log: Backgroung Image 
 Insert backgroudnd image to header and body 
+
+July 3, 2018 8am-9am
+Day 17: Gradient background and Sprite
+Log : Create a gradient background for all sites
+        Make Sprites
+
+
 
      
     
