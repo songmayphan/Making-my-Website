@@ -93,7 +93,9 @@ Insert backgroudnd image to header and body
 July 3, 2018 8am-9am
 Day 17: Gradient background and Sprite
 Log : Create a gradient background for all sites
-        Make Sprites
+      Make Sprites.
+      Selecting icons for the navigations bar
+      
 
 
 
