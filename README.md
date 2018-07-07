@@ -98,6 +98,10 @@ July 5, 2018 4pm 5pm
 Day 18: Web Icons
 Log:  Make Sprites.
       Selecting icons for the navigations bar
+July 6, 2018, 11pm 12pm 
+Day 19 Icon Progressing
+Log: Nothing new, I'm still learning about sprites
+
       
       
 
