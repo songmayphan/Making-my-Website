@@ -102,6 +102,12 @@ July 6, 2018, 11pm 12pm
 Day 19 Icon Progressing
 Log: Nothing new, I'm still learning about sprites
 
+July 10, 2018 5pm 7pm  
+Day 20 Sprites 
+Log:  Created Sprites for icons 
+       Hover effect 
+       Full Width background 
+       
       
       
 
