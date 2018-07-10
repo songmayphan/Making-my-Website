@@ -1,95 +1,135 @@
-<!DOCTYPE html>
-<html> 
-  
-<meta charset= "UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href ="css/contact.css"> 
-<main> 
-		<title> Contact </title> 
+html {
+	background-color: #ff9b84;
+  background-image: linear-gradient(to bottom right, #ff9b84,#B56357 );
+	line-height: 1.5; 
+}
+header{ 
+
+	
+	font-size: 100%;
+	font-weight: normal;
+	text-align :left; 
+	padding-top: 20px; 
+	text-shadow: 1px 10px 10px rgba(0, 0, 0, .3);
+	text-transform: uppercase; 
+	background-image: url(../images/flower.jpg);
+	background-position: right center; 
+	display: block; 
+
+}
+h1 { color: #500805;}
+.head {
+	color: #500805;
+	display: block;
+	
+}
+ /* Forms Styling   */ 
+input,
+text-area
+{ 
+font-family : Tahoma, sans-serif; 
+font-size: 100%; 
+}
  
-
-
-  <header>
-    <h1 class ="head">Contact </h1>
-    <nav class="site-nav">
-	<ul class="group">
-		<li> <a href="index.html"> Home </a> </li>
-		<li> <a href="about.html"> About  </a> </li>
-		<li> <a href="contact.html"> Contact </a> </li>
-
-	</ul>
-	</nav>
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="tel"],
+ text-area
+{
+	width: 25%; 
+	display: block; 
+	box-sizing: border-box; 
+	padding: 0 10px; 
+	height: 40px;
+margin-bottom :15px; 
+border: 1px solid #CDCDCD; 	
+ }
+ /*	Site Navigation */
+.site-nav {
+		margin-top: 20px;
+}
+.site-nav ul{ 
 	
-  </header>
-  <p> 
+	margin: 0; 
+	padding: 0; 
+}
+.site-nav li {
+	
+	list-style: none; 
+	float: left; 
+	margin-right: 5px; 
+}
+.site-nav a:hover {
+		background-color: #A7B3A5;
+ }
+.site-nav a {
+	text-decoration: none;
+	color: #B4DBC0;
+	padding: 10px 20px; 
+	border: 3px solid #A7B3A5;
+	display: block; 
+	background-color: #FFF;
+	
+}
+ 
+ /* End site nav**/
+ 
+ a {
+	text-decoration: none; 
+ }
+ form {
+	background-color: #EAE3EA;
+	padding: 30px 40px; 
+ }
+ input[type="text"]:focus,
+ input[type="email"]:focus,
+ input[type="tel"]:focus,
+ text-area
+{
+	border: 1px solid #869960; 
+	box-shadow: inset 3px 3px 3px rgbd(0,0,0,0.13); 
+	outline: none; 
+}
 
-	<body> <h1 class ="head"> Stay in touch </h1> 
-</p>		
-			<p> 
-				<ul> 
-				<li> Gmail: songmayphan@gmail.com </li>
-				<li> Instagram : smayp_q </li>
-				<!-- Will add some more --> 		
-				</ul> 
-			</p> 
-			
+input[type="submit"] {
+	width: 25%; 
+	display: block; 
+	box-sizing: border-box; 
+	background-color: #BC6D4F;
+	color: #FFF;
+	padding: 10px 0; 
+	border: 1px solid #EAE3EA; 
+	border-radius: 5px; 
+	margin-bottom: 10px; 
+	outline: none;
 	
-		<h1 class="head">Tell me about yourself</h1>
-				
-				<p>
-					<form> 
-					<p>
-						<label for="firstName" class="hidden-label">First Name: </label>
-						<input id ="firstName" placeholder="First Name" type="text" name="firstName">
-					</p>
-					<p>
-						<label for ="lastName"class="hidden-label"> Last Name: </label>
-						<input id ="lastName" placeholder="Last Name" type ="text" name="lastName"> 
-					</p>
-					<p>
-						<label for ="email" class="hidden-label" > Email: </label>
-						<input id = "email" placeholder="Email" type="email" name ="email"> 
-					</p>
-					<p>
-						<label for ="tel" class="hidden-label" > Tel: </label>
-						<input id = "tel" placeholder="Phone Number" type="tel" name ="tel">
-					</p>
-					<p>
-						<label for ="yourMessage" class="hidden-label"> Leave a message: </label> 
-						<textarea id ="yourMessage" placeholder="Leave a message"  name="yourMessage"> </textarea>						
-					</p>
-					<p>
-						<input type="submit" value="Submit">
-					</p>	
-						
-						
-					</form>
-				</p>
-			</p>
-			
-			<p>
-				<fieldset>
-				<legend> What aspect of the website that I need to improve? </legend>
-					
-					<input type ="radio" id ="UI" name ="feedback" value="fb1" <label for ="UI"> User Interface </label>
-					<input type ="radio" id ="content" name ="feedback" value="fb2"> <label for ="content"> Content Diversity </label>
-					<input type ="radio" id ="org" name ="feedback" value ="fb3"> <label for ="org" > Organization </label> 
-				
-			
-				</fieldset>
-			
-			</p>
-		
-</body> 
-<footer>
-	<p class="highlight"> 
-		&copy; Copyright 2018
+}
+ input[type="submit"]:hover,
+ input[type="submit"]:focus 
+ {
+	border: 2px solid #869960;  
+	box-shadow: inset 3px 3px 3px rgbd(0,0,0,0.13);
+ }
+ 
+ .hidden-label {
+	position: absolute; 
+	height: 0;
+	width: 0; 
+	overflow: hidden; 
+	visibility: hidden; 
+ }
+ 
+h1{ 
 
-	</p>	
+	color: #A7B3A5;
+	text-align: left;
+	
+}
 
-</footer>
+footer .highlight{
+	text-align: center; 
+	font-size: 85%; 
+	color: #999;
+}
 	
-	
-	
-</main>
-</html> 
