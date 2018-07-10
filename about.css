@@ -21,12 +21,17 @@ h1 {
 }
 .ui-menu a {
 	display: block; 
-	width :50px; 
-	height: 50px;
+	width :65px; 
+	height: 60px;
 	background-image: url(../images/icons.png); 
-	background-size: 50px 50px;
+	text-indent: -9999px; 
 	
 }
+.ui-home a:hover {background-position: -137px 0;}
+.ui-profile a:hover {background-position: -137px -119px; }
+.ui-profile a{background-position: 0 -119px;}
+.ui-contact a:hover{background-position: -137px -234px;}
+.ui-contact a{background-position: 0 -234px;}
 body {
 		font-family: Tahoma, sans-serif; 
 		font-size: 90%; 
