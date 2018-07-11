@@ -35,6 +35,8 @@ h1 {
 body {
 		font-family: Tahoma, sans-serif; 
 		font-size: 90%; 
+		margin: 0;
+		padding: 0;
 }	
 header {
 	font-size: 100%;
@@ -52,19 +54,18 @@ a {
 	text-decoration: none; 
  }
 .container {
-  width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #A7B3A5; 
-  background-image: url(../images/bg.png); 
-  padding-left: 40px;  
-  box-sizing: border-box; 
   
+  max-width: 940px; 
+  margin: 0 auto; 
+  padding-left: 40px; 
+  padding-right: 40px; 
 }
 
 .content-area {
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
+  background-image: url(../images/bg.png); 
+  
 }
 
 footer {
