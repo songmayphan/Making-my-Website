@@ -107,6 +107,11 @@ Day 20 Sprites
 Log:  Created Sprites for icons 
        Hover effect 
        Full Width background 
+July 11, 2018 8am 9pm 
+Day 21 Making full width background
+Log:   Responsive website begins 
+        Edit css files so the web can fit all devices
+
        
       
       
