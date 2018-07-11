@@ -125,6 +125,15 @@ footer {
 	background-color: #FFF;
 	
 }
+
+@media screen and (max-width: 700px) {
+	.main-area,
+	.sidebar {
+		width: auto;
+		float: none; 
+	}
+	.main-area { padding-right: 0;} 
+}
  
  /* End site nav**/
  
