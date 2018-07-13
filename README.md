@@ -111,6 +111,11 @@ July 11, 2018 8am 9pm
 Day 21 Making full width background
 Log:   Responsive website begins 
         Edit css files so the web can fit all devices
+        
+July 13, 2018 ,5pm 6pm 
+Day 222 Making adjustable screens
+Log:  Mobile and small screens
+     Designs different backgrounds for each one 
 
        
       
