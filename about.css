@@ -7,31 +7,7 @@ h1 {
 	color: #DF744A; ;
 	
 }
-.ui-menu ul {
-	
-		margin: 0; 
-		padding: 0; 
-		
-}
-.ui-menu li {
-	float: left; 
-	list-style: none; 
-	margin-right: 20px; 
-	
-}
-.ui-menu a {
-	display: block; 
-	width :65px; 
-	height: 60px;
-	background-image: url(../images/icons.png); 
-	text-indent: -9999px; 
-	
-}
-.ui-home a:hover {background-position: -137px 0;}
-.ui-profile a:hover {background-position: -137px -119px; }
-.ui-profile a{background-position: 0 -119px;}
-.ui-contact a:hover{background-position: -137px -234px;}
-.ui-contact a{background-position: 0 -234px;}
+
 body {
 		font-family: Tahoma, sans-serif; 
 		font-size: 90%; 
@@ -60,14 +36,21 @@ a {
   padding-left: 40px; 
   padding-right: 40px; 
 }
-
+@media screen and (max-width: 480px) {
+	.container {padding-left: 20px;
+	padding-right: 20px;}
+}
 .content-area {
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
   background-image: url(../images/bg.png); 
   
 }
-
+@media screen and (max-width: 480px) {
+	.content-area {
+		padding-top: 20px; 
+	}
+}
 footer {
 	font-size: 85%; 
 	text-align: center; 
