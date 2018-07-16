@@ -113,9 +113,13 @@ Log:   Responsive website begins
         Edit css files so the web can fit all devices
         
 July 13, 2018 ,5pm 6pm 
-Day 222 Making adjustable screens
+Day 22 Making adjustable screens
 Log:  Mobile and small screens
      Designs different backgrounds for each one 
+     
+July 16, 2018, 8am 9am 
+Day 23 :Responsive Grid 
+          
 
        
       
