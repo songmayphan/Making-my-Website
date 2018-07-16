@@ -40,6 +40,16 @@ a {
 	.container {padding-left: 20px;
 	padding-right: 20px;}
 }
+
+@media screen and (min-width: 1300px) {
+
+body {
+	font-size: 17px; 
+}
+	.container {
+		max-width: 1200px; 
+	}
+}
 .content-area {
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
