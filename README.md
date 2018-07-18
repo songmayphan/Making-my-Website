@@ -125,8 +125,10 @@ July 17, 2018 9pm 10pm:
 Day 24: CSS Special Effects
 Log:  CSS Non-essential formats for ABout page 
           
+July 18, 2018 8am 9am 
+Day 25: CSS Round Corners
+Log: Add shadowing to corners and sidebars
 
-       
       
       
 
