@@ -119,6 +119,11 @@ Log:  Mobile and small screens
      
 July 16, 2018, 8am 9am 
 Day 23 :Responsive Grid 
+Log: created resposive layouts
+
+July 17, 2018 9pm 10pm: 
+Day 24: CSS Special Effects
+Log:  CSS Non-essential formats for ABout page 
           
 
        
