@@ -129,6 +129,12 @@ July 18, 2018 8am 9am
 Day 25: CSS Round Corners
 Log: Add shadowing to corners and sidebars
 
+July 19 2018, 10pm 11pm 
+Day 26: CSS Transform element 
+Log: Make use of transitioning format
+Hovering 2s transitions 
+
+
       
       
 
