@@ -163,7 +163,7 @@ footer {
  
  
 .sidebar {
-	border-radius: 10px; 
+	border-radius: 10px 25px; 
 	border: 2px solid white;
 }
 
