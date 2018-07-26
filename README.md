@@ -134,6 +134,17 @@ Day 26: CSS Transform element
 Log: Make use of transitioning format
 Hovering 2s transitions 
 
+---- Working days----- 
+July 26 2018, 3pm 4pm 
+Day 27: Completely renewing the out look of the websites
+Log:  I was going to make 3 pages home, about and contact but was stuck for a while. I have remodeled every thing
+from the look to the content of the page. I was just thinking about how I don't have any projects or accomplishmenet yet to 
+showcase, hence I was discorage by the idea of having a trophy case without any trophy.. But then I thought, it would be great to have
+a website that gives people a little peek about who I am, what I do and what I aspire for. So I proceeded. Also, by doing this
+I have a great motivation to learn HTML and CSS, and in the future, Javascript. I know I have broken the #100daysofCode rules by not working on this everyday. However, I was working more than 80 hours a week and was heavily sleep deprived for the past week :(. I just wish we have more than 24 hours in a day to do what we neeed to.. But I will continue and will not stop until my goal is reached! Looking forward to the 100th days!!
+
+
+
 
       
       
