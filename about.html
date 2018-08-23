@@ -1,10 +1,17 @@
 
 <!DOCTYPE html>  
 <html> 
+<head> 
+	<meta charset= "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href ="css/about.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="https://malsup.github.io/jquery.cycle2.js"></script>
+</head> 
 
-<meta charset= "UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href ="css/about.css">
 <main>
 <title> About Me </title>
 
@@ -29,35 +36,57 @@
 	<div class="container"> 
 		<div class="main-area">
 	
-		<nav class="ui-menu">
-        <ul class="group">
-          <li class="ui-home"><a href="index.html">Home</a></li>
-          <li class="ui-profile"><a href="about.html">Profile</a></li>
-          <li class="ui-contact"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
 		  <p> I'm currently a second year student at Rollins College and an undergraduate in Computer Science. Having been a foreign student in the United States of America for almost three years, I have learnt alot not only the cultural differences but also the advances of technology of the USA compare to Vietnam, where I come from, and the rest of the world. 
-		 
-		<div class="image-banner"> 
-			<img src="images/nc.jpg" alt="my pic" >
-			<div class="banner-description" >
-				<p> It was a beautiful day at Jetton Park, North Carolina. </p> </div> 
+	<div class="image-banner">
+		<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true"> 
+			<span class="cycle-prev"> &laquo; </span> 
+			<span class="cycle-next"> &raquo; </span>
+			<span class="cycle-pager">		  </span>
+			<div class="slide"> 
+				<img src="images/nc.jpg" alt="my pic" >
+				<div class="slide-text"> 
+				<p> It was a beautiful day at Jetton Park, North Carolina. <a href="#" class= "button-a"> Start Slideshow!</a>    </p> 
+				
+				</div> 
+			</div> 
+			<div class="slide"> 
+				<img class ="flip" src="images/ma1.jpg" alt="may and attican">
+				<div class="slide-text"> 
+				<p> The sun somehow magically differs from the meaner one in Florida! </p> 
+				</div>
+			</div>
+			<div class="slide"> 
+				<img class="flip"  src="images/ma2.jpg" alt="may and attican">
+				<div class="slide-text"> 
+				<p> The lake was the full of the natural energy that I love so much! </p> 
+				</div> 
+			</div> 
 		</div> 
+	</div>
+			<div class="banner-description" >
+				<p> It was a beautiful day at Jetton Park, North Carolina. </p> 
+			</div> 
+	
 		
 	  <p> My passion for technology has grown significantly since I learn about the potential of machine learning and artificial intelligent. I would love to utilize what I learn from college to apply for the upcoming projects. My goal for machine learning would be to contribute to the advances of anything applicable, from travelling to banking. </p>     </div>
 
-    <aside class="sidebar">
-	<p>
-		
+	<div class="box-a" >
+		<aside class="sidebar">
+		<p>
 		<ul>  <strong> My Projects </strong> 
 
 			<li> Calculator	</li>
 			<li> Book Recommendations Software </li> 
-		
 		</ul>
-	</p>    
-	</aside>
-	
+			<audio controls>
+	<source class="music" src="audio/Breezeblocks.mp3" type ="audio/mpeg" >
+	<a href="audio/Breezeblocks.mp3" >One of my favorire songs</a> 
+ </audio> 
+		
+		
+		</p>    
+		</aside>
+	</div>
 		</div> 
   </div>
  </div> 
