@@ -144,6 +144,12 @@ a website that gives people a little peek about who I am, what I do and what I a
 I have a great motivation to learn HTML and CSS, and in the future, Javascript. I know I have broken the #100daysofCode rules by not working on this everyday. However, I was working more than 80 hours a week and was heavily sleep deprived for the past week :(. I just wish we have more than 24 hours in a day to do what we neeed to.. But I will continue and will not stop until my goal is reached! Looking forward to the 100th days!!
 
 
+---Im back!--- 
+Hello, I have been working on my website but just forgot to upload it to Github :) So here it is
+
+Aug 22 2018 
+Day 45: SLideshow and animation 
+Overrall changed
 
 
       
