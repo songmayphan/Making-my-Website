@@ -1,23 +1,30 @@
 html {
 	background-color: #ff9b84;
-  background-image: linear-gradient(to bottom right, #ff9b84,#B56357 );
+	background-image: linear-gradient(to bottom right, #ff9b84,#B56357 );
 	line-height: 1.5; 
 }
 header{ 
 
-	
+
 	font-size: 100%;
 	font-weight: normal;
-	color:  #DF744A;
-	text-align :left; 
+	text-align :center; 
 	padding-top: 20px; 
 	text-shadow: 1px 10px 10px rgba(0, 0, 0, .3);
 	text-transform: uppercase; 
 	background-image: url(../images/flower.jpg);
-	background-position: right center; 
+	background-position: center-right; 
 	display: block; 
 
 }
+body {
+	text-align:center; 
+}
+.h1 { 
+	text-align :center; 
+	
+}
+
  /* Forms Styling   */ 
 input,
 text-area
@@ -42,6 +49,7 @@ border: 1px solid #CDCDCD;
  }
  /*	Site Navigation */
 .site-nav {
+		text-align:center;
 		margin-top: 20px;
 }
 .site-nav ul{ 
