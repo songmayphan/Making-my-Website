@@ -138,6 +138,7 @@ footer {
 	height: auto;
 	
  }
+ .
  /*Banner Overlay */
 .image-banner {
   position: relative;
@@ -150,9 +151,119 @@ footer {
   transition: all 1.7s;
 }
 
-.image-banner:hover img {
+.image-banner .flip {
   transform: scale(1.0);
+   
+   transform: rotate(180deg) ;
+   overflow: hidden; 
+ 
 }
+
+/* SlideShow Style */ 
+.cycle-slideshow {
+	margin-bottom: 30px; 
+}
+
+.slide {
+	 width: 100%;
+	 position: relative;
+	}
+
+.slide img {
+	display: block;
+}
+	
+
+.slide-text {
+	position: absolute; 
+	bottom: 0; 
+	background-color: rgba(0,0,0,.7);
+	width: 100%; 
+	padding: 20px;
+	box-sizing: border-box; 
+	color: #fff;
+	
+}
+
+@media screen and (max-width: 767px)
+{
+	.slide-text{ 
+		position: static;
+		background-color: #000; 
+		
+	}
+}
+/* end slideshow style */ 
+
+/* Prev and Next button */ 
+.cycle-prev, .cycle-next {
+	position: absolute; 
+	top: 30%; 
+	background-color: rgba (0, 0,0, .35); 
+	color: #fff; 
+	padding: 1px 10px;
+	cursor: pointer;
+	display: block;
+	font-size: 130%; 
+	z-index: 1000;
+	opacity:  0; 
+	transition: opacity .5s; 
+}
+.cycle-next {
+	right: 0;
+	
+}
+.cycle-slideshow:hover .cycle-prev, 
+.cycle-slideshow:hover .cycle-next
+{
+	opacity: 1; 	
+}
+.cycle-pager { 
+	position:absolute; 
+	top: 20px; 
+	z-index: 1003;
+	width: 100%; 
+	text-align: center; 
+	
+}
+
+.cycle-pager span {
+	
+	text-indent: -9999px; 
+	display: inline-block;
+	width: 10px; 
+	height: 10px; 
+	border-radius: 50%; 
+	background-color: #fff; 
+	margin: 0 4px; 
+	cursor: pointer; 
+	
+}
+.cycle-pager .cycle-pager-active{ 
+	background-color: #000;
+	
+}
+
+/* Button a style */ 
+
+.button-a {
+	padding: 6px 10px; 
+	border-radius: 5px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	background-color: #EAE3EA;
+	color: #000;
+	font-size: 84%; 
+	margin-left: 10px; 
+	
+}
+.button-a:hover {
+	background-color: #000;
+	color: #EAE3EA;
+}
+
+
+
 
 .banner-description {
   position: absolute;
@@ -176,9 +287,13 @@ footer {
  
  /* end banner*/ 
  
-/* Audio 
+/* Audio  */
 
-*/
+
+
+.music {
+	text-align: center;
+}
  
  
 .sidebar {
