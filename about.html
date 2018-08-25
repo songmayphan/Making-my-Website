@@ -10,16 +10,20 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 	<script src="https://malsup.github.io/jquery.cycle2.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"> </script>
 </head> 
 
 <main>
 <title> About Me </title>
 
 
-  <header>
+  <header class="section">
     <div class="container" >
 	
 		<h1>About Me</h1>
+		
+	<span data-toggle-target=".site-nav" class="toggle-btn"> MENU</span> 	
+		
     <p><nav class="site-nav">
 	<ul class="group">
 		<li> <a href="index.html"> Home </a> </li>
@@ -32,16 +36,17 @@
 	</div> 
   </header>
 
-  <div class="content-area group">
+  <div class="content-area">
 	<div class="container"> 
 		<div class="main-area">
-	
+		
 		  <p> I'm currently a second year student at Rollins College and an undergraduate in Computer Science. Having been a foreign student in the United States of America for almost three years, I have learnt alot not only the cultural differences but also the advances of technology of the USA compare to Vietnam, where I come from, and the rest of the world. 
-	<div class="image-banner">
+		<div class="image-banner">
 		<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true"> 
 			<span class="cycle-prev"> &laquo; </span> 
 			<span class="cycle-next"> &raquo; </span>
 			<span class="cycle-pager">		  </span>
+			
 			<div class="slide"> 
 				<img src="images/nc.jpg" alt="my pic" >
 				<div class="slide-text"> 
@@ -62,21 +67,27 @@
 				</div> 
 			</div> 
 		</div> 
-	</div>
+		</div>
 			<div class="banner-description" >
 				<p> It was a beautiful day at Jetton Park, North Carolina. </p> 
 			</div> 
 	
-		
-	  <p> My passion for technology has grown significantly since I learn about the potential of machine learning and artificial intelligent. I would love to utilize what I learn from college to apply for the upcoming projects. My goal for machine learning would be to contribute to the advances of anything applicable, from travelling to banking. </p>     </div>
-
+	<p> <span data-toggle-target=".full-text" data-toggle-text="Hide text..." class="toggle-btn read-more"> Read more... </span> </p>
+	<div class="full-text">  
+		<h2> What I aspire for </h2> 
+	  <p> My passion for technology has grown significantly since I learn about the potential of machine learning and artificial intelligent. I would love to utilize what I learn from college to apply for the upcoming projects. My goal for machine learning would be to contribute to the advances of anything applicable, from travelling to banking. </p> 
+		<p> Ever since I was a kid, I have always wanted to make something useful, something that would help anyone, to do anything. The path that I chose now, is simply perfect. </p>
+		<p> The more I learn about technology, the more inspired I become. The advances of technology is undeniably fast. That is why I know the path I chose will never stop me from learning new things everyday I wake up. That, the chance and the ability to learn, is the most precious gift life has granted us.  </p>
+	
+	</div> 
+</div> 	
 	<div class="box-a" >
 		<aside class="sidebar">
 		<p>
-		<ul>  <strong> My Projects </strong> 
+		<ul>  <strong> My Personal Blogposts</strong> 
 
-			<li> Calculator	</li>
-			<li> Book Recommendations Software </li> 
+			<li> Wordpress	</li>
+			<li> Book Reviews </li> 
 		</ul>
 			<audio controls>
 	<source class="music" src="audio/Breezeblocks.mp3" type ="audio/mpeg" >
