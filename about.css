@@ -4,7 +4,7 @@ html {
   line-height: 1.5; 
 }
 h1 {
-	color: #DF744A; ;
+	color: #b6efb7;
 	
 }
 
@@ -25,11 +25,63 @@ header {
 	text-transform: uppercase; 
 	background-image: url(../images/flower.jpg);
 	background-position: right center; 
+	display: block ;
+	margin-bottom : 10px;
 
 }
 a {
 	text-decoration: none; 
  }
+ /* Main Column Typography */
+.main-area h2 {
+  font-size: 165%;
+  font-weight: normal;
+}
+
+.section {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+header {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #B56357;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 165%;
+}
+
+header p {
+  font-size: 90%;
+  margin: 0;
+}
 .container {
   
   max-width: 940px; 
@@ -57,6 +109,49 @@ body {
   background-image: url(../images/bg.png); 
   
 }
+
+.content-area {
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .content-area {
+    padding-top: 20px;
+  }
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  color: #555;
+  font-size: 85%;
+}
+
+.sidebar h3 {
+  font-size: 138.5%;
+  margin-bottom: 7px;
+}
+
+.info-box {
+  background-color: #efeedb;
+  border: 5px solid #e6e5c2;
+  padding: 20px 40px 7px 40px;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .hide-small {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
 	.content-area {
 		padding-top: 20px; 
@@ -81,7 +176,10 @@ footer {
 		text-indent: 25px;
 				
 }
-
+.sidebar {
+	border-radius: 10px 25px; 
+	border: 2px solid white;
+}
 .sidebar {
   width: 34%;
   float: left;
@@ -92,34 +190,54 @@ footer {
   list-style-position: normal;
   
 }
-/*	Site Navigation */
+//* Site Navigation */
 .site-nav {
-		margin-top: 20px;
+  margin-top: 20px;
 }
-.site-nav ul{ 
-	
-	margin: 0; 
-	padding: 0; 
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
 }
+
 .site-nav li {
-	
-	list-style: none; 
-	float: left; 
-	margin-right: 5px; 
+  list-style: none;
+  float: left;
+  margin-right: 5px;
 }
-.site-nav a:hover {
-		background-color: white;
- }
+
 .site-nav a {
-	text-decoration: none;
-	color: #DF744A;
-	padding: 10px 20px; 
-	border: 3px solid #A7B3A5;
-	display: block; 
-	background-color: #b6efb7;
-	transition-property: all; 
-	transition-duration: 0.5s;
-	
+  display: block;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #B4DBC0;
+  transition-property: color, background-color;
+  transition-duration: 2s;
+}
+
+.site-nav a:hover {
+  background-color: #fff;
+  color: #2c465a;
+}
+
+@media screen and (max-width: 1023px) {
+  .site-nav li {
+    width: 33.332%;
+    margin-right: 0;
+  }
+
+  .site-nav a {
+    padding: 15px 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .site-nav li {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -194,12 +312,42 @@ footer {
 	}
 }
 /* end slideshow style */ 
+ /* Review and Hide Style */
+ .read-more {
+	text-decoration: underline;
+	color: blue; 
+	cursor :pointer;
+	
+ }
+ .read-more :hover {
+	 text-decoration: none;
+	 
+	 
+ }
+ .toggle-btn {
+	 display:none;
+ }
+@media screen and (max-width: 767px) { 
+
+ .toggle-btn-visible {
+	 display:block;
+ }
+.toggle-target-hidden {
+	display: none;
+}
+.toggle-target-expanded {
+	display: block;
+}
+}
+
+
 
 /* Prev and Next button */ 
-.cycle-prev, .cycle-next {
+.cycle-prev, 
+.cycle-next {
 	position: absolute; 
 	top: 30%; 
-	background-color: rgba (0, 0,0, .35); 
+	background-color: rgba (0,0,0, 0.35); 
 	color: #fff; 
 	padding: 1px 10px;
 	cursor: pointer;
@@ -290,16 +438,11 @@ footer {
 /* Audio  */
 
 
-
 .music {
 	text-align: center;
 }
  
- 
-.sidebar {
-	border-radius: 10px 25px; 
-	border: 2px solid white;
-}
+
 
 .fix {
   clear: both;
