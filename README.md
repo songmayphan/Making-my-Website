@@ -157,6 +157,11 @@ Log: Hide full text for smartphone users
 Recipe: 1: Custom HTML and CSS
         2: JavaScript: declarative toggle
 
+Aug 25 2018 
+Day 30: Open Image in Modal Windows
+1) Custom HTML CSS
+2) LightBox 
+
         
 
 
